@@ -8,9 +8,8 @@
     <title>Hair Refinery Website</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.datepicker.css">
-    <link rel="stylesheet" href="assets/js/bootstrap.datepicker.js">
+    <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="bootstrap-datepicker/css/bootstrap-datepicker.css">
 
     <!--Full page-->
     <style>
@@ -150,8 +149,8 @@
     <p>Date, Day and Time</p>
 
     <ul>
-        <div class="date">
-            <input type="text" placeholder="Appointment date">
+        <div class="Date">
+            <input id="date" type="text" placeholder="Appointment date">
         </div>
 
         <select id="day" name="select-day">
@@ -261,9 +260,15 @@
 
     </section>
 
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap.datepicker.js"></script>
+    <script src="bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#date").datepicker();
+        })
+        </script>
 
 
 </body>
 </html>
+        
