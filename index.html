@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Hair Refinery Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!--Full page-->
+    <style>
+       body {
+            background-image: url("img/braids2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: top right;
+         }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js">
+    </script>
+</head>
+
+<!--Banner-->
+<body>
+    <section id="banner">
+        <img src="img/logo.jpg" class="logo">
+
+        <div class="banner-text">
+            <h1>Hair Refinery Boutique Salon</h1>
+            <p>Elegance at its Finest</p>
+        </div>
+    </section>
+
+<!--Feature-->
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURE</p>
+            <h1>Why Choose Us</h1> 
+        </div>
+        <div class ="feature-box">
+            <div class="features">
+    <!--about-->
+                <h1>About</h1>
+                <div class="features-desc">
+                    <div class = "feature-icon">
+                    </div>
+                    <div class="feature-text">
+                        <p>Hair Refinery Boutique Salon is a premier hair salon located in Nairobi Kenya. Since 2020, we have offered a wide range of services and pampering to give you the elegant and fabulous look that you deserve.
+                        </p>
+                    </div>
+                </div>
+    <!--online bookings-->
+                <h1>Pre Booking Online</h1>
+                <div class="features-desc">
+                    <div class = "feature-icon">
+                    </div>
+                    <div class="feature-text">
+                        <p>Our mission is to provide the highest quality service, in union with the highest quality for the well being of our guests and the environment. Ready to book? We look forward to taking care of you!
+                        </p>
+                    </div>
+                </div>
+    <!--cost-->
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class = "feature-icon">
+                    </div>
+                    <div class="feature-text">
+                        <p>Hair Refinery Boutique Salon offers affordable hair services to suit your every need at a budget. You can look great without having to leave a dent in your wallet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src = "img/cornrows2.jpg" alt="">
+            </div>
+        </div>
+   
+
+ <!--services offered-->
+<section id="servicesoffered">
+          <div class="title-text">
+            <p>Services</p>
+            <h1>Styles Offered</h1>
+
+        <!--dreadlocks-->
+    <aside role="Dreadlocks" class="view-first">
+        <div class="mask" style="background-image: url(img/locks2.jpg);">
+        <div class="book">	
+		  <h3><strong>$20 and $40</strong> Natural and Artificial Dreadlocks</h3>
+        <p>New to Versa Salon or interested in trying a new service? Download our <strong>$20 gift</strong> and book an appointment today!</p>
+        </div>  
+        </div>
+	</aside>
+
+        <!--wig installation-->
+    <aside role="Wigs" class="view-first">
+        <div class="mask" style="background-image: url(img/wig2.jpg);">
+        <div class="book">	
+		  <h3><strong>$30</strong> Wig Installation</h3>
+            <p>We love our guests and want more just like you! When you refer a friend to Versa Salon, we’ll give you a <strong>$25 gift</strong> for Aveda products as our way of saying thanks.</p>
+        </div> 
+        </div>   
+	</aside>
+
+        <!--Cornrows-->
+    <aside role="Cornrows" class="view-first">
+        <div class="mask" style="background-image: url(img/cornrows1.jpg);">
+        <div class="book">	
+		  <h3><strong>$10</strong> Cornrows</h3>
+        <p class="p1">Ready to book? Use our app to schedule your next service. We look forward to taking care of you!  </p>
+        </div>  
+        </div>  
+	</aside>
+        <!--braiding-->
+    <aside role="Braids" class="view-first">
+        <div class="mask" style="background-image: url(img/braids2.jpg);">
+        <div class="book">	
+		  <h3><strong>$15</strong> Braids</h3>
+        <p class="p1">Ready to book? Use our app to schedule your next service. We look forward to taking care of you!  </p>
+        </div>   
+        </div> 
+	</aside>
+
+        <!--twists-->
+    <aside role="Twists" class="view-first">
+        <div class="mask" style="background-image: url(img/twists3.jpg);">
+        <div class="book">	
+		  <h3><strong>$12</strong> Twists</h3>
+        <p class="p1">Ready to book? Use our app to schedule your next service. We look forward to taking care of you!  </p>
+        </div> 
+        </div>   
+	</aside>
+
+  </section>
+
+<!--bookings-->
+<section id="bookings">
+    <div class="title-text">
+        <p>Bookings</p>
+        <h1></h1>PLace Your Bookings Here</h1>
+    </div>
+
+    <!--day and time-->
+    <p>Day & Time</p>
+
+    <ul>
+        <select id="day" name="select-day">
+            <option value="mon">Monday</option>
+            <option value="tue">Tuesday</option>
+            <option value="wed">Wednesday</option>
+            <option value="thur">Thursday</option>
+            <option value="fri">Friday</option>
+        </select>
+
+      <input id="day" type="time" placeholder="Time Available"/>
+    </ul>
+    <p>
+        <p></p>
+    </p>
+
+    <!--desired service-->
+     <p>Desired Service</p>
+    <form action="action_form.php" method="get">
+      <input type="text" list="hairstyles" name="hairstyles"> 
+      <datalist id="hairstyles">
+        <option value="Dreadlocks">Natural/Artificial Dreadlocks</option>
+        <option value="Wigs">Wig Installation & Removal</option>
+        <option value="Cornrows">Cornrows</option>
+        <option value="Braids">Braids</option>
+        <option value="Twists">Twists</option>
+        
+      </datalist>
+
+    <button type="book">Book Appointment</button>
+    </section>
+  
+<!--Testimonies-->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIALS</p>
+            <h1>Reviews by our clients</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/stephanie.jpg">
+                    <div class="user-info">
+                        <h4>Stephanie Shantel</h4>
+                        <small>@stephanieshantel</small>
+                    </div>
+                </div>
+                <p>The well-trained hair stylists at Hair Refinery Salon are some of the best in this industry. I would definitely recommend them.</p>
+            </div>
+
+             <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/jecinta.jpg">
+                    <div class="user-info">
+                        <h4>Jecinta Alividza</h4>
+                        <small>@jecintaalividza</small>
+                    </div>
+                </div>
+                <p>No matter who does your hair or what haistyle you choose, you'll leave the salon feeling amazing.</p>
+            </div>
+
+             <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/caleb.jpg">
+                    <div class="user-info">
+                        <h4>Caleb Kingsbury</h4>
+                        <small>@calebkingsbury</small>
+                    </div>
+                </div>
+                <p>Their expret staff can give you recommendations for the perfect hair products to meet your specific needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer">
+        <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Let us take care of your Hair</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p>Monday to Friday - 9am to 9pm</p>
+                <p>Saturday - 8am to 12pm</p>
+                 <p>Sunday and Holidays- Closed</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>
+                    Bihi Towers, Fifth floor -  Nairobi, Kenya
+                </p>
+                <p>
+                    hair-refinerysalon@gmail.com 
+                </p>
+                <p>
+                    +254-782226370 
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2022 - Hair Refinery Boutique Salon</p>
+        </div>
+
+    </section>
+
+    <script>
+  
+    </script>
+
+
+</body>
+</html>
