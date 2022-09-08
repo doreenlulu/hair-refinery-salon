@@ -9,6 +9,7 @@
     list-style: none;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    overflow: auto;
 }
 
 /*banner*/
