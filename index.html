@@ -136,18 +136,18 @@
 
   </section>
 
-<!--bookings-->
+<!--BOOKINGS-->
 <section id="bookings">
     <div class="title-text">
         <p>Bookings</p>
         <h1></h1>PLace Your Bookings Here</h1>
     </div>
 
-    <!--day, time and date-->
+    <!--Day, time and date-->
     <p>Date, Day and Time</p>
 
     <ul>
-        <div class="Date">
+        <div class="form-bookings">
             <input id="date" type="date" placeholder="Appointment date">
         </div>
 
@@ -168,7 +168,7 @@
 
     <!--desired service-->
      <p>Desired Service</p>
-    <form action="" method="get">
+    <form id="A-bookings" class="d-flex flex-column align-items-center justify-content-evenly">
       <input type="text" list="hairstyles" name="hairstyles"> 
       <datalist id="hairstyles">
         <option value="Dreadlocks">Natural/Artificial Dreadlocks</option>
@@ -180,9 +180,10 @@
       </datalist>
 
     <!--book button-->
-    <button class="book">Book Appointment</button>
-    </section>
-  
+    <div class="btnbook">
+    <button id="book" class="mt-4">Book Appointment</button>
+    </div>
+    </form>
 <!--Testimonies-->
     <section id="testimonial">
         <div class="title-text">
