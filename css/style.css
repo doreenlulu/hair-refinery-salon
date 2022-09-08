@@ -206,6 +206,7 @@ nav ul li a{
     padding: 3rem 0;
     z-index: -1;
     align-items: center;
+  
 }
 .services {
    flex-wrap: wrap;
