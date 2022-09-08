@@ -73,10 +73,11 @@
     width: 100%;
 }
 .banner-text p {
-    margin: 10px auto;
+    margin: auto;
     font-size: 3.5rem;
     font-style: italic;
 }
+
 
 /*features*/
 #features {
@@ -311,9 +312,11 @@
     }
     .features-img {
         flex-basis: 100%;
+        display: none;
     }
     .features-img img {
         width: 100%;
+        display: none;
     }
      .footer-left, .footer-right {
         flex-basis: 100%;
