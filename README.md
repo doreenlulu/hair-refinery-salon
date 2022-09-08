@@ -4,40 +4,40 @@
 
 ## Table of contents
 
-- [Project Description](#Description)
+- [Project Description](#description)
 - [Installation](#Installation)
 - [Tech Used](#Technology-used)
 - [Reference](#Reference)
 - [License](#License)
-- [Authors Information](#Authors-Information)
+- [Authors Information](#Authors-Infor)
 
 ## Description
 
-Hair Refinery Boutique Salon is Website that specializes in booking hair appointments. It fetches data from Sagenda API. In this webpage, the user is ble to book an appointment specifying the day, time, date and hairstyle.
+Hair Refinery Boutique Salon is WebApp that specializes in booking hair appointments. It fetches data from Sagenda API. In this webpage, the user is ble to book an appointment specifying the day, time, date and hairstyle.
 
-![myimage-alt-tag](img/page2.jpg)
+![myimage-alt-tag](img/page1.jpg)
 
 ## Installation
 
 ### Requirements
 
-- A fully functional computer, Ipad, tablet or phone
-- An access to a stable internet connection
-- Text editor(For any alterations you may want to make)
+- Either a computer, Ipad, tablet or phone
+- An access to internet connection
+- Text editor
 
 ### Installation process
-- $ git clone https://github.com/doreenlulu/hair-refinery-salon.git
-- $ cd hair-refinery-salon
-- $ google-chrome index.html
+
+
 
 ## Live link
 https://doreenlulu.github.io/hair-refinery-salon/
 
 ### Technology used
 
-- HTML - which was used to build the structure of the page and the general outlook.
-- CSS - which was used to style the page and all the features it has.
-- Javascript - THis was used to program the interactivity of the page.
+- HTML - which was used to build the structure of the page.
+
+- CSS - which was used to style the page
+- Javascript - Whiche was used to program the behaviour or interactivity of the page.
 
 ## Reference
 
@@ -69,5 +69,4 @@ SOFTWARE.
 
 ## Author's Infor
 
-- School Email - doreen.musyoki@student.moringaschool.com
-- Personal email - doreenlulu97@gmail.com
+- Email - doreen.musyoki@student.moringaschool.com
