@@ -13,7 +13,7 @@
 
 ## Description
 
-Hair Refinery Boutique Salon is WebApp that specializes in booking hair appointments. It fetches data from Sagenda API. In this webpage, the user is ble to book an appointment specifying the day, time, date and hairstyle.
+Hair Refinery Boutique Salon is Website that specializes in booking hair appointments. It fetches data from Sagenda API. In this webpage, the user is ble to book an appointment specifying the day, time, date and hairstyle.
 
 ![myimage-alt-tag](img/page2.jpg)
 
@@ -21,13 +21,13 @@ Hair Refinery Boutique Salon is WebApp that specializes in booking hair appointm
 
 ### Requirements
 
-- Either a computer, Ipad, tablet or phone
-- An access to internet connection
-- Text editor
+- A fully functional computer, Ipad, tablet or phone
+- An access to a stable internet connection
+- Text editor(For any alterations you may want to make)
 
 ### Installation process
 - $ git clone https://github.com/doreenlulu/hair-refinery-salon.git
-- $ cd MovieApp
+- $ cd hair-refinery-salon
 - $ google-chrome index.html
 
 ## Live link
