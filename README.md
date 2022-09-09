@@ -27,13 +27,10 @@ Hair Refinery Boutique Salon is WebApp that specializes in booking hair appointm
 
 ### Installation process
 
-- $ git clone https://github.com/Maureenkamau03/MovieApp
-- $ cd MovieApp
-- $ google-chrome index.html
+
 
 ## Live link
-
-https://maureenkamau03.github.io/MovieApp/
+https://doreenlulu.github.io/hair-refinery-salon/
 
 ### Technology used
 
@@ -50,7 +47,7 @@ Custom CSS
 
 MIT License
 
-Copyright (c) 2022 Maureenkamau03
+Copyright (c) 2022 Doreen Musyoki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -72,5 +69,4 @@ SOFTWARE.
 
 ## Author's Infor
 
-- LinkedIn - https://www.linkedin.com/in/maureen-kamau-ba6470212
-- Email - maureen.kamau01@student.moringaschool.com
+- Email - doreen.musyoki@student.moringaschool.com
