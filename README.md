@@ -1,4 +1,4 @@
-# Hair Salon Website
+# Hair Refinery Salon Website
 
 ###### By Doreen Musyoki
 
