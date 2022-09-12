@@ -43,7 +43,7 @@ fetch('https://sagenda-sagenda-v1.p.rapidapi.com/Events/GetBookableItemList', op
     }
 
       const book = document.getElementById ("book");
-    const div1 = document.getElementById ("about");
+    
     
     book.addEventListener("click", function(){
         div1.style.background = "grey"
